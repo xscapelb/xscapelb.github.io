@@ -1,4 +1,4 @@
-document.getElementById('toggle-footer').addEventListener('click', function() {
-    var carousel = document.getElementById('footer-carousel');
+document.getElementById('toggle-disclaimer').addEventListener('click', function() {
+    var carousel = document.getElementById('disclaimer-content');
     carousel.classList.toggle('hidden');
 });

@@ -1,5 +1,9 @@
+:root {
+    --accent-color: #FFD700;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), #121212), url('images/Gemini_Generated_Image_4waqcq4waqcq4waq.png');
     background-attachment: fixed;
     background-size: cover;
@@ -14,6 +18,7 @@ header {
     background-color: #1f1f1f;
     padding: 1rem;
     text-align: center;
+    border-bottom: 3px solid var(--accent-color);
 }
 
 h1 {
@@ -31,14 +36,37 @@ main {
 
 .menu-category {
     margin-bottom: 1.5rem;
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#disclaimer-content {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem;
 }
 
 .menu-category h3 {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid var(--accent-color);
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
+    color: var(--accent-color);
+}
+
+.item-price {
+    color: var(--accent-color);
 }
 
 .menu-category ul {
@@ -74,7 +102,7 @@ footer {
     text-align: center;
 }
 
-#toggle-footer {
+#toggle-disclaimer {
     background-color: #333;
     color: #fff;
     border: none;
@@ -83,8 +111,21 @@ footer {
     margin-bottom: 1rem;
 }
 
-#footer-carousel.hidden {
+#disclaimer-content.hidden {
     display: none;
+}
+
+.social-media a {
+    margin: 0 0.5rem;
+}
+
+.social-icon path {
+    fill: white;
+    transition: fill 0.2s ease-in-out;
+}
+
+.social-media a:hover .social-icon path {
+    fill: var(--accent-color);
 }
 
 
@@ -95,7 +136,7 @@ footer {
         margin: 0 auto;
     }
 
-    #menu {
+    .menu-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
