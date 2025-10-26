@@ -21,7 +21,6 @@ BLUEBERRY
 Grapefruit
 Magic love
 Double apple
-Blueberry
 Orange cream
 
 Adalya $30
@@ -31,21 +30,16 @@ Love 66
 
 Musthave $30
 
-Choco Mint
-Dizzy Dizzy
+Fizzy Dizzy
 Ice Mint
 Frosty
 Pinkman
 Watermelon
 Lemon shock
 Sweet melon
-Paradise
-Mandarin
-Quince
 Red bomb
 Strawberry-lychee
 Kiwi smoothie
-Rocketman
 Melonade
 
 Eternal Smoke $30
@@ -109,7 +103,6 @@ Papaya sorbet
 
 PaNN $28
 
-strawberry
 
 MINT MIXES $28
 
@@ -139,14 +132,14 @@ FRUITY NIGHTS- Kiwi x Raspberry x Sweet Melon
 
 EXTRAS
 
-Jolly Tip - $2
-Iced Tip - $6
+Iced Tip - $7
 Apple Head - $7
 Pineapple Head - $13
 Glass Hookah - $40
-AlFakhir refill -$13
-Fumari refill - $16
-Starbuzz refill - $13
+AlFakhir refill -$14
+Fumari refill - $15
+Starbuzz refill - $14
+Tangier refill - $15
 
 HOT DRINKS $5
 
@@ -201,15 +194,16 @@ Monster $5
 Redbull $5
 Gatorade $3
 
-SOFT DRINKS $2
+SOFT DRINKS
 
-Pepsi
-Sprite
-Coke
-Diet Coke
-Ginger Ale
-Mexican Coke $4
+Pepsi $2.50
+Sprite $2.50
+Coke $2.50
+Diet Coke $2.50
+Ginger Ale $2.50
+Mexican Coke $5
 Arizona Tea $3
+Dr. Pepper $2.50
 
 ***2 PEOPLE PER HOOKAH - 3RD PERSON SURCHARGE $15
 
